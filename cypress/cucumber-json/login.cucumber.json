@@ -1,0 +1,62 @@
+[
+    {
+      "description": "  application Login",
+      "keyword": "Feature",
+      "name": "End to end login validation",
+      "line": 1,
+      "id": "end-to-end-login-validation",
+      "tags": [],
+      "uri": "login.feature",
+      "elements": [
+        {
+          "id": "end-to-end-login-validation;login-valid",
+          "keyword": "Scenario",
+          "line": 7,
+          "name": "Valid login",
+          "tags": [
+            {
+              "name": "@login",
+              "line": 5
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 8,
+              "name": "I open Login page",
+              "result": {
+                "status": "passed",
+                "duration": 4358000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 9,
+              "name": "I submit login",
+              "result": {
+                "status": "passed",
+                "duration": 5900000000
+              }
+            },
+            
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 10,
+              "name": "I should see Homepage",
+              "result": {
+                "status": "passed",
+                "duration": 5910000000
+              }
+            }
+          ]
+        }
+           
+          ]
+        }
+      ]
+    
+  
